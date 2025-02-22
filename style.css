@@ -1,13 +1,251 @@
 /* * Styling for root selector */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito Sans", serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
 }
 
-.nav-belt{
-    width: 100%;
-    background-color: rgb(15,17,17);
-    height: 60px;
+.nav-belt {
+  width: 100%;
+  background-color: rgb(15, 17, 17);
+  height: 60px;
+}
+
+/* * Footer */
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #232f3e;
+  min-width: 1000px;
+  position: relative;
+}
+
+#backToTop {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerNav {
+  margin-bottom: 40px;
+  background-color: #37475a;
+}
+
+.footerNav-text {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 19px;
+  font-size: 1rem;
+}
+
+.foot-body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.foot-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footHead {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+
+.foot-col {
+  padding: 0 40px;
+}
+
+.foot-col ul li {
+  line-height: 1.1rem;
+  list-style: none;
+  margin-bottom: 10px;
+  white-space: normal;
+}
+
+.foot-col ul li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #fff;
+}
+.foot-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-gap {
+  border-top: 1px solid #3a4553;
+  margin-top: 40px;
+}
+
+.footer-navlink {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 6rem;
+  color: #ddd;
+  margin: 10px auto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  white-space: nowrap;
+  max-width: 1000px;
+}
+
+.footer-navlink span {
+  display: inline-block;
+  width: 95px;
+}
+
+.footer-navlink span div {
+  max-width: 1000px;
+}
+
+.foot-logo {
+  line-height: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 0 0.6rem;
+}
+
+.foot-logo-img {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 115px;
+  padding: 0 0.6rem;
+  width: 7rem;
+  height: 3rem;
+  mix-blend-mode: lighten;
+}
+
+.foot-logo-base {
+  background-position: -10px -90px;
+  width: 76px;
+  height: 26px;
+  margin: 0 auto;
+}
+
+.foot-container {
+  display: inline-block;
+}
+
+.foot-row a div {
+  display: inline-block;
+}
+
+.foot-container .foot-btn {
+  width: 9.8rem;
+  height: 2.5rem;
+  display: inline-block !important;
+  border: 1px solid #848688;
+  border-radius: 3px;
+  padding: 6px 18px 6px 8px;
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.foot-icon {
+  padding-top: 8px;
+  padding-right: 5px;
+}
+
+.foot-btn {
+  display: flex;
+}
+
+.navFooterline {
+  background-color: #131a22;
+  padding: 30px 0;
+  margin: 30px 0 0;
+  color: #ddd;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.moreonAmazon {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.moreonAmazon ul {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 15px !important;
+  margin-left: 0 !important;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0 0 0 18px;
+}
+
+.moreonAmazon ul li,
+.moreonAmazon ul li a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  color: #ddd;
+  width: 104.5px;
+  height: 55px;
+  font-size: 12px !important;
+  padding: 3px 1rem;
+  text-align: left;
+  line-height: 115%;
+}
+
+.moreonAmazon ul li a:hover {
+  text-decoration: underline;
+}
+
+.moreonAmazon ul li a span {
+  color: #999;
+}
+
+.navFooter_heading {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.lastFoot {
+  background-color: #131a22;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 0 30px;
+}
+
+.lastFoot ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 0 18px;
+}
+
+.lastFoot ul li a,
+.lastFoot span {
+  color: #ddd;
+  text-decoration: none;
+  padding: 0 8px 0 8px;
+  font-size: 12px;
+}
+
+.lastFoot ul li a:hover {
+  text-decoration: underline;
+}
+
+.lastFoot ul li {
+  list-style: none;
+}
+
+.lastFoot span {
+  display: inline-block;
+  margin: auto;
 }
